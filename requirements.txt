@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+seaborn
+pytest
+# optional (not verified by the author): torch for 1D-CNN / LSTM, shap for SHAP plots
+# torch
+# streamlit   (for app.py)
+# shap

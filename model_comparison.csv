@@ -1,0 +1,8 @@
+model,input,accuracy,acc_std,macro_f1,evaluation,status
+Logistic regression,20 engineered features,0.9798611111111111,0.008038775626937673,0.9801888197401298,5-fold GroupKFold (by machine),executed
+Random forest,20 engineered features,0.9840277777777777,0.011326046132152854,0.9842190878171186,5-fold GroupKFold (by machine),executed
+Hist. gradient boosting,20 engineered features,0.982638888888889,0.013714178929257989,0.9827975467072768,5-fold GroupKFold (by machine),executed
+MLP on log-spectrum,128-bin log spectrum,0.7090277777777778,0.024980702428617975,0.7079835675759412,5-fold GroupKFold (by machine),executed
+MLP on spectrogram image,32x15 spectrogram image,0.6069444444444445,0.025927992642492313,0.6040899298682834,5-fold GroupKFold (by machine),executed
+1D-CNN (PyTorch),raw signal,,,,-,NOT RUN (torch unavailable when this was built)
+LSTM (PyTorch),raw signal,,,,-,NOT RUN (torch unavailable when this was built)
